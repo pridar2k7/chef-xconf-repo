@@ -1,0 +1,20 @@
+{
+  "name": "sharan_local",
+  "chef_environment": "_default",
+  "json_class": "Chef::Node",
+  "automatic": {
+  },
+  "normal": {
+  },
+  "chef_type": "node",
+  "override": {
+  },
+  "default": { 
+    "app_deploy_location":"/var/lib/tomcat6/webapps"
+    },
+  "run_list": [
+    "recipe[java]",
+    "recipe[tomcat]",
+    "recipe[sample_app_deploy]"
+  ]
+}

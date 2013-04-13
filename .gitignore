@@ -1,4 +1,4 @@
 .vagrant
 Vagrantfile
 solo.rb
-
+.chef/syntax_check_cache
