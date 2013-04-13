@@ -1,0 +1,8 @@
+{
+	"id" :"application_artifacts",
+	"sampleApp" :{
+		"UAT" : {
+			"artifact" : "http://s3.amazonaws.com/chef-workshop-artifacts/artifact1/sample.war"
+		}	
+	}
+}
