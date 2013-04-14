@@ -1,17 +1,10 @@
 {
   "name": "domU-12-31-39-15-35-38.compute-1.internal",
   "chef_environment": "_default",
-  "run_list": [
-  	"recipe[java]",
-    "recipe[tomcat]",
-    "recipe[sample_app_deploy]"
-  ],
-  "default_attributes": { 
-    "app_deploy_location":"/var/lib/tomcat6/webapps"
+  "override":{ },
+  "default": {
   },
-  "normal": {
-    "tags": [
-
-    ]
-  }
+  "run_list": [
+    "role[QA]"
+  ]
 }

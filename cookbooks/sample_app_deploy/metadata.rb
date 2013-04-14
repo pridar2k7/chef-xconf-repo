@@ -1,6 +1,6 @@
 name             "Java sample application deploy"
 description      "Deploy java sample application"
-version          "0.0.1"
+version          "0.0.2"
 
 
 #recipe "tomcat::default", "Installs and configures Tomcat"

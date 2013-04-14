@@ -1,10 +1,6 @@
 app_artifact = data_bag_item("apps", "application_artifacts")
-
 deploy_artifact_url = app_artifact["sampleApp"]["UAT"]["artifact"]
-Chef::Log.info("******** node **********\n")
-Chef::Log.info(node.default[:app_deploy_location])
-
-app_deploy_location = node["default"]["app_deploy_location"]
+app_deploy_location = node["sample_app_deploy"]["app_deploy_location"]
 
 # ["/opt/apps", app_deploy_location].each do |dir|
 # 	directory dir do
