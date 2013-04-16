@@ -1,5 +1,5 @@
 app_artifact = data_bag_item("apps", "application_artifacts")
-deploy_artifact_url = app_artifact["sampleApp"]["UAT"]["artifact"]
+deploy_artifact_url = app_artifact["sampleApp"]["QA"]["artifact"]
 app_deploy_location = node["sample_app_deploy"]["app_deploy_location"]
 
 # ["/opt/apps", app_deploy_location].each do |dir|
