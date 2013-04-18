@@ -1,0 +1,14 @@
+{
+  "name": "uat",
+  "description": "",
+  "cookbook_versions": {
+  },  
+"json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "run_chef_as_cron": "true",
+    "load_balancing_enabled": "true"
+  },
+  "override_attributes": {
+  }
+}

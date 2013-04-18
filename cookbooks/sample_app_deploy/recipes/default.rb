@@ -22,3 +22,10 @@ remote_file artifact_name do
 	mode "0644"
 	owner "root"
 end
+
+cron "chef_client run" do
+  minute "30"
+  user "ubuntu"
+  command "sudo chef-client"
+  only_if { node['run_chef_as_cron'] == 'true'}
+end
