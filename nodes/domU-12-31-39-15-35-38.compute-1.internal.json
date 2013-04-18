@@ -8,6 +8,6 @@
   	"ip_address":"54.225.93.160"
   },
   "run_list": [
-    "role[QA]"
+    "role[APP]"
   ]
 }

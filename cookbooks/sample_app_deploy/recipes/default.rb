@@ -15,7 +15,8 @@ execute "cleanup" do
 	command "rm -rf #{app_deploy_location}/sample*"
 end
 
-remote_file "sample" do
+artifact_name = File.basename(deploy_artifact_url)
+remote_file artifact_name do
 	path "#{app_deploy_location}/sample.war"
 	source deploy_artifact_url
 	mode "0644"

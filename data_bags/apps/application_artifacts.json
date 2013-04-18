@@ -1,8 +1,8 @@
 {
-	"id" :"application_artifacts",
-	"sampleApp" :{
-		"QA" : {
-			"artifact" : "http://s3.amazonaws.com/chef-workshop-artifacts/artifact1/sample.war"
-		}	
-	}
+  "id": "application_artifacts",
+  "sampleApp": {
+    "QA": {
+      "artifact": "http://s3.amazonaws.com/chef-workshop-artifacts/sample-app-38.war"
+    }
+  }
 }

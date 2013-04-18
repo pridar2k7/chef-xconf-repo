@@ -2,7 +2,7 @@
   "name": "ip-10-170-11-114.ec2.internal",
   "chef_environment": "_default",
   "run_list": [
-  	 "role[QA]",
+  	 "role[APP]",
      "recipe[haproxy]"
   ],
   "normal": {
