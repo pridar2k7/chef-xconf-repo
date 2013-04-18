@@ -1,13 +1,25 @@
 {
   "name": "domU-12-31-39-15-35-38.compute-1.internal",
-  "chef_environment": "_default",
-  "override":{ },
-  "default": {
-  },
-  "normal":{
-  	"ip_address":"54.225.93.160"
-  },
+  "chef_environment": "uat",
   "run_list": [
     "role[APP]"
-  ]
+  ],
+  "normal": {
+    "ip_address": "54.225.93.160",
+    "tags": [
+
+    ],
+    "tomcat": {
+      "context_dir": "/etc/tomcat6/Catalina/localhost",
+      "group": "tomcat6",
+      "base": "/var/lib/tomcat6",
+      "work_dir": "/var/cache/tomcat6",
+      "tmp_dir": "/tmp/tomcat6-tmp",
+      "log_dir": "/var/log/tomcat6",
+      "user": "tomcat6",
+      "webapp_dir": "/var/lib/tomcat6/webapps",
+      "config_dir": "/etc/tomcat6",
+      "home": "/usr/share/tomcat6"
+    }
+  }
 }

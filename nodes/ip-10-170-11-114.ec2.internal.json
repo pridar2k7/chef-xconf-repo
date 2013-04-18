@@ -2,13 +2,25 @@
   "name": "ip-10-170-11-114.ec2.internal",
   "chef_environment": "_default",
   "run_list": [
-  	 "role[APP]",
-     "recipe[haproxy]"
+    "role[APP]",
+    "recipe[haproxy]"
   ],
   "normal": {
-    "ip_address":"54.225.105.243",
+    "ip_address": "54.225.105.243",
     "tags": [
 
-    ]
+    ],
+    "tomcat": {
+      "context_dir": "/etc/tomcat6/Catalina/localhost",
+      "work_dir": "/var/cache/tomcat6",
+      "base": "/var/lib/tomcat6",
+      "group": "tomcat6",
+      "log_dir": "/var/log/tomcat6",
+      "user": "tomcat6",
+      "tmp_dir": "/tmp/tomcat6-tmp",
+      "webapp_dir": "/var/lib/tomcat6/webapps",
+      "config_dir": "/etc/tomcat6",
+      "home": "/usr/share/tomcat6"
+    }
   }
 }
