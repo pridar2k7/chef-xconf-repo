@@ -11,5 +11,5 @@ def defaults_timeouts
 end
 
 def app_nodes
-  search(:node, "role:QA")
+  search(:node, "role:APP")
 end
