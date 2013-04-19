@@ -1,0 +1,12 @@
+{
+  "name": "ip-10-171-21-250.ec2.internal",
+  "chef_environment": "_default",
+  "run_list": [
+
+  ],
+  "normal": {
+    "tags": [
+
+    ]
+  }
+}
