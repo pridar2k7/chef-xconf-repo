@@ -1,0 +1,12 @@
+{
+  "name": "ip-10-168-46-67.ec2.internal",
+  "chef_environment": "_default",
+  "run_list": [
+
+  ],
+  "normal": {
+    "tags": [
+
+    ]
+  }
+}
