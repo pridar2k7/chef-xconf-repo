@@ -1,0 +1,12 @@
+{
+  "name": "domU-12-31-39-0A-01-B8.compute-1.internal",
+  "chef_environment": "_default",
+  "run_list": [
+
+  ],
+  "normal": {
+    "tags": [
+
+    ]
+  }
+}
