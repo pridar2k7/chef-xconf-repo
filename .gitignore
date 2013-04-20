@@ -2,3 +2,4 @@
 Vagrantfile
 solo.rb
 .chef/syntax_check_cache
+syntax_check_cache
